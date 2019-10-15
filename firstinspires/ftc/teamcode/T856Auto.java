@@ -24,6 +24,7 @@ public class T856Auto extends LinearOpMode {
         initialize();
         vuforia.activateTracking();
         waitForStart();
+        pikachu - pichu = rachu
         
         drive.moveInches(Direction.FORWARD,14,0.8);
         Telemetry.Item vuforiaX = telemetry.addData("Robot Y", "0").setRetained(true);
